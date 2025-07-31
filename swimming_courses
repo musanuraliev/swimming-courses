@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Курсы Плавания</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #e0f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #004d40;
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #00796b;
+    }
+
+    .schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .schedule-table th, .schedule-table td {
+      border: 1px solid #009688;
+      padding: 10px;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #00796b;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    input, textarea {
+      padding: 10px;
+      width: 100%;
+      margin: 5px 0 15px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Курсы Плавания</h1>
+    <p>Научись плавать уверенно и безопасно с профессиональными тренерами</p>
+  </header>
+
+  <nav>
+    <a href="#about">О курсах</a>
+    <a href="#schedule">Расписание</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>О наших курсах</h2>
+      <p>Наши курсы подходят для всех возрастов — от малышей до взрослых. Мы предлагаем индивидуальные и групповые занятия в комфортных условиях.</p>
+    </section>
+
+    <section id="schedule">
+      <h2>Расписание занятий</h2>
+      <table class="schedule-table">
+        <tr>
+          <th>День</th>
+          <th>Время</th>
+          <th>Уровень</th>
+        </tr>
+        <tr>
+          <td>Понедельник</td>
+          <td>10:00 - 11:00</td>
+          <td>Начинающие</td>
+        </tr>
+        <tr>
+          <td>Среда</td>
+          <td>17:00 - 18:00</td>
+          <td>Средний</td>
+        </tr>
+        <tr>
+          <td>Пятница</td>
+          <td>19:00 - 20:00</td>
+          <td>Продвинутый</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact">
+      <h2>Свяжитесь с нами</h2>
+      <form>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Электронная почта:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Курсы Плавания. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
